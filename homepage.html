@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width-device-width, inital-scale=1.0" name="viewport">
+        <title>
+            Suzuki Sport Bikes
+        </title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <section class="header" id="header">
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="#">SUZUKI</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" class="active">Bikes</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Prodoctuion</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="hero">
+                  <div class="row">
+                    <div class="left-sec">
+                        <div class="content">
+                            <h2><span>SUZUKI</span><br>GSX</h2>
+                            <p>The Suzuki GSX series motorcycles are renowned for their cutting-edge technology and high-performance engineering. GSX series is a symbol of Suzuki's dedication to creating motorcycles that offer riders an unparalleled riding experience.</p>
+                        </div>
+                        <button class="discover-btn">
+                            <a href="#">discover</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+                        </button>
+                        <div class="information">
+                         <div class="production">
+                            <p>Production</p>
+                            <h2>1984-2023</h2>
+                         </div>
+                         <div class="production">
+                            <p>Designer</p>
+                            <h2>Michio Suzuki</h2>
+                         </div>
+                    </div>
+                  </div>
+                  <div class="right-sec">
+                    <div class="my-bikes">
+                        <div><img src="img/1.png"></div>
+                        <div><img src="img/2.png"></div>
+                        <div><img src="img/3.png"></div>
+                        <div><img src="img/4.png"></div>
+                        <div><img src="img/5.png"></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section> 
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+       <script type="text/javascript">
+        $(document).ready(function(){
+            $(".my-bikes").slick({
+                autoplay: true,
+                dots: true,
+                speed: 1000,
+            });
+        });
+       </script>
+    </body>
+</html>
